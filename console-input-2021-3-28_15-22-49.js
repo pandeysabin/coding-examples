@@ -22,7 +22,7 @@ const anotherHeightChecker = function (heights) {
       const newNumberOfOrdersChanges = acc + 1;
       return newNumberOfOrdersChanges;
     },
-    0
+    0,
   );
 
   return numberOfOrderChanges;

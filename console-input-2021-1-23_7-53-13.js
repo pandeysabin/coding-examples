@@ -20,7 +20,7 @@ var validMountainArray = (arr) => {
     {
       largestNumber: initialElement,
       index: 0,
-    }
+    },
   );
 
   const { largestNumber, index: largetNumberIndex } = largestNoDetails;
