@@ -13,7 +13,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
+func RemoveNthFromEnd(head *ListNode, n int) *ListNode {
 	dummyNode := ListNode{0, head}
 
 	left := &dummyNode
